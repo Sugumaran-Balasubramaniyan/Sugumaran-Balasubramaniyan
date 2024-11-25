@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Data Scientist & AI Strategist
 ------------------------------
 
-I am an experienced Data Professional with over 5 years of expertise in machine learning, data engineering, and predictive analytics. My career journey spans impactful roles in organizations like Capgemini, Infosys and Les Compagnons de Paris, where I developed end-to-end solutions that streamlined workflows, enhanced decision-making, and delivered measurable business outcomes. I hold a Master of Science in Data Science and Artificial Intelligence Strategy from emlyon business school, complemented by an international exchange term at McGill University focused on IoT, Big Data Analytics, and Recommender Systems.
+I am an experienced data professional with over 5 years of expertise in machine learning, data engineering, and predictive analytics. My career journey spans impactful roles in organizations like Capgemini, Infosys and Les Compagnons de Paris, where I developed end-to-end solutions that streamlined workflows, enhanced decision-making, and delivered measurable business outcomes. I hold a Master of Science in Data Science and Artificial Intelligence Strategy from emlyon business school, complemented by an international exchange term at McGill University focused on IoT, Big Data Analytics, and Recommender Systems.
 
 *   🌍  I'm based in Paris, France
 *   ✉️  You can contact me at [bsugumaran@hotmail.com](mailto:bsugumaran@hotmail.com)
