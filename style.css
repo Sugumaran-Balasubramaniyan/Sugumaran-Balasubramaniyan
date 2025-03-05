@@ -1,68 +1,80 @@
+/* General Styles */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-    line-height: 1.6;
 }
 
 header {
-    background: #5072A7;
+    background-color: #222;
+    padding: 15px 0;
     color: white;
     text-align: center;
-    padding: 1rem 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to right, #0073e6, #00c6ff);
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #fff;
+    color: #0073e6;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 section {
-    width: 80%;
-    margin: 20px auto;
+    max-width: 800px;
+    margin: 40px auto;
     padding: 20px;
     background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-#about img {
-    max-width: 200px;
-    display: block;
-    margin: 0 auto 20px;
-    border-radius: 50%;
-}
-
-#skills ul {
+.skill-list {
+    list-style-type: none;
     padding: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
 }
 
-#skills li {
-    background: #e1e1e1;
+.skill-list li {
+    background: #0073e6;
+    color: white;
+    display: inline-block;
+    padding: 8px 12px;
     margin: 5px;
-    padding: 5px 10px;
     border-radius: 5px;
 }
 
 footer {
     text-align: center;
-    padding: 1rem 0;
-    background: #333;
+    padding: 20px;
+    background-color: #222;
     color: white;
-}
-
-.social-links a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-@media (max-width: 768px) {
-    section {
-        width: 95%;
-    }
-
-    #skills ul {
-        flex-direction: column;
-        align-items: center;
-    }
+    margin-top: 20px;
 }
