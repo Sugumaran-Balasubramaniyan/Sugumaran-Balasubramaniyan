@@ -55,3 +55,14 @@ footer {
     margin: 0 10px;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    section {
+        width: 95%;
+    }
+
+    #skills ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
