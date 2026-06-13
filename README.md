@@ -52,8 +52,7 @@ I architect production-grade ML systems and build LLM evaluation frameworks. 7+ 
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sugumaran-Balasubramaniyan&theme=github-dark&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=F0883E&currStreakLabel=58A6FF" alt="GitHub Streak" />
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sugumaran-Balasubramaniyan&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" alt="Top Languages" />
-  <br/>
-  <img src="https://github-profile-trophy.vercel.app/?username=Sugumaran-Balasubramaniyan&theme=darkhub&no-frame=true&column=7&margin-w=15&margin-h=15" alt="Profile Trophy" />
+
 </p>
 
 ---
@@ -66,7 +65,7 @@ I architect production-grade ML systems and build LLM evaluation frameworks. 7+ 
 | [**Advanced-Machine-Learning**](https://github.com/Sugumaran-Balasubramaniyan/Advanced-Machine-Learning) | Comprehensive ML fundamentals: preprocessing, regression, classification, model interpretation | Jupyter · Scikit-learn · XGBoost | [![CI](https://github.com/Sugumaran-Balasubramaniyan/Advanced-Machine-Learning/actions/workflows/ci.yml/badge.svg)](https://github.com/Sugumaran-Balasubramaniyan/Advanced-Machine-Learning/actions) |
 | [**Python-for-Data-Science**](https://github.com/Sugumaran-Balasubramaniyan/Python-for-Data-Science) | Complete data science toolkit — cleaning, EDA, visualization, and ML pipelines | Python · Pandas · Matplotlib | [![CI](https://github.com/Sugumaran-Balasubramaniyan/Python-for-Data-Science/actions/workflows/ci.yml/badge.svg)](https://github.com/Sugumaran-Balasubramaniyan/Python-for-Data-Science/actions) |
 | [**Data-Science-Foundations**](https://github.com/Sugumaran-Balasubramaniyan/Data-Science-Foundations-Data-Mining) | Data mining foundations: collection, filtering, and parsing large datasets | Jupyter · Data Mining | [![CI](https://github.com/Sugumaran-Balasubramaniyan/Data-Science-Foundations-Data-Mining/actions/workflows/ci.yml/badge.svg)](https://github.com/Sugumaran-Balasubramaniyan/Data-Science-Foundations-Data-Mining/actions) |
-| [**hermes-agent**](https://github.com/Sugumaran-Balasubramaniyan/hermes-agent) | AI agent framework — core contributor (fork of Nous Research) | Python · AI Agents | [![CI](https://github.com/NousResearch/hermes-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/NousResearch/hermes-agent/actions) |
+| [**hermes-agent**](https://github.com/Sugumaran-Balasubramaniyan/hermes-agent) | AI agent framework — core contributor (fork of Nous Research) | Python · AI Agents | [![CI](https://github.com/Sugumaran-Balasubramaniyan/hermes-agent/actions/workflows/tests.yml/badge.svg)](https://github.com/Sugumaran-Balasubramaniyan/hermes-agent/actions) |
 
 ---
 
