@@ -47,12 +47,13 @@ I architect production-grade ML systems and build LLM evaluation frameworks. 7+ 
 ### 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sugumaran-Balasubramaniyan&show_icons=true&count_private=true&hide_title=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF" alt="GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sugumaran-Balasubramaniyan&theme=github-dark&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=F0883E&currStreakLabel=58A6FF" alt="GitHub Streak" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sugumaran-Balasubramaniyan&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" alt="Top Languages" />
-
+  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile Details" width="390px" />
+  <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Stats" width="390px" />
+</p>
+<p align="center">
+  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repos Per Language" width="258px" />
+  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Most Commit Language" width="258px" />
+  <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Productive Time" width="258px" />
 </p>
 
 ---
