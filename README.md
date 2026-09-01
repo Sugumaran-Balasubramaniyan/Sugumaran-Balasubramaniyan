@@ -62,6 +62,7 @@ I architect production-grade ML systems and build LLM evaluation frameworks. 7+ 
 
 | Project | Description | Tech | CI |
 |---------|-------------|------|-----|
+| [**enterprise-agentic-rag**](https://github.com/Sugumaran-Balasubramaniyan/enterprise-agentic-rag) | Production-grade Agentic RAG — PGVector HNSW hybrid search (<20ms), autonomous multi-step orchestrator, deterministic security guardrails | Python · PGVector · FastAPI · Streamlit | [![CI](https://github.com/Sugumaran-Balasubramaniyan/enterprise-agentic-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/Sugumaran-Balasubramaniyan/enterprise-agentic-rag/actions) |
 | [**clinical-llm-eval**](https://github.com/Sugumaran-Balasubramaniyan/clinical-llm-eval) | Benchmarking framework for LLM clinical reasoning — hallucination detection, LLM-as-judge, multi-model comparison | Python · LLMs · Evaluation | [![CI](https://github.com/Sugumaran-Balasubramaniyan/clinical-llm-eval/actions/workflows/ci.yml/badge.svg)](https://github.com/Sugumaran-Balasubramaniyan/clinical-llm-eval/actions) |
 | [**Advanced-Machine-Learning**](https://github.com/Sugumaran-Balasubramaniyan/Advanced-Machine-Learning) | Comprehensive ML fundamentals: preprocessing, regression, classification, model interpretation | Jupyter · Scikit-learn · XGBoost | [![CI](https://github.com/Sugumaran-Balasubramaniyan/Advanced-Machine-Learning/actions/workflows/ci.yml/badge.svg)](https://github.com/Sugumaran-Balasubramaniyan/Advanced-Machine-Learning/actions) |
 | [**Python-for-Data-Science**](https://github.com/Sugumaran-Balasubramaniyan/Python-for-Data-Science) | Complete data science toolkit — cleaning, EDA, visualization, and ML pipelines | Python · Pandas · Matplotlib | [![CI](https://github.com/Sugumaran-Balasubramaniyan/Python-for-Data-Science/actions/workflows/ci.yml/badge.svg)](https://github.com/Sugumaran-Balasubramaniyan/Python-for-Data-Science/actions) |
@@ -72,6 +73,7 @@ I architect production-grade ML systems and build LLM evaluation frameworks. 7+ 
 
 ### 📝 Recent Work
 
+- ⚡ **[Enterprise Agentic RAG](https://github.com/Sugumaran-Balasubramaniyan/enterprise-agentic-rag)** — Production-grade Agentic RAG with PGVector HNSW hybrid search, autonomous multi-step tool execution, and deterministic guardrail firewalls
 - 🔬 **[Clinical LLM Evaluation](https://github.com/Sugumaran-Balasubramaniyan/clinical-llm-eval)** — Framework for benchmarking LLMs on clinical reasoning with hallucination detection
 - 🤖 **Autonomous AI Agents** — Building multi-agent orchestration systems and evaluation infrastructure
 - 📚 **ML Education** — Teaching next-gen ML engineers at SKEMA; open-sourcing course materials
