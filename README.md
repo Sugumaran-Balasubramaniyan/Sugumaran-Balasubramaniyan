@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:090d16,50:161b22,100:00f2fe&height=220&section=header&text=Sugumaran%20Balasubramaniyan&fontSize=38&fontColor=00f2fe&animation=fadeIn&fontAlignY=38&desc=Senior%20AI%2FML%20Systems%20Architect%20%E2%80%A2%20Professor%20of%20AI%20%26%20Data%20Science%20%40%20SKEMA%20Paris&descSize=16&descAlignY=58&descAlign=50" alt="Sugumaran Balasubramaniyan Header" width="100%" />
+  <img src="./assets/header.svg" alt="Sugumaran Balasubramaniyan — Senior AI/ML Systems Architect" width="100%" />
 </p>
 
 <p align="center">
@@ -233,7 +233,7 @@ mission_statement: >
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:00f2fe,50:161b22,100:090d16&height=120&section=footer" alt="Footer Waving Banner" width="100%" />
+  <img src="./assets/footer.svg" alt="Divider" width="100%" />
 </p>
 
 <p align="center">
