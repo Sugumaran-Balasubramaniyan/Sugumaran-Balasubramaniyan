@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="214" viewBox="0 0 780 214" role="img" aria-labelledby="t7 d7">
+  <title id="t7">SKEMA MSc AI &amp; Data Science Curriculum Frameworks</title>
+  <desc id="d7">Applied postgraduate curriculum: high-dimensional data mining, exploratory data analysis, scalable ETL pipelines, and statistical hypothesis testing.</desc>
+  <defs>
+    <radialGradient id="r7" cx="0.88" cy="0.5" r="0.8">
+      <stop stop-color="#38BDF8" stop-opacity="0.14" />
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid7" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+    .m { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .sweep { animation: sweep 10s linear infinite; }
+    .pulse { animation: pulse 3s ease-in-out infinite; }
+    @keyframes sweep { to { stroke-dashoffset: -100; } }
+    @keyframes pulse { 0%, 100% { opacity: 0.45; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .sweep, .pulse { animation: none !important; } }
+  </style>
+
+  <!-- Background Base & Grid -->
+  <rect x="0.5" y="0.5" width="779" height="213" rx="14" fill="#080C14" stroke="#1E293B" stroke-width="1.2" />
+  <rect x="0.5" y="0.5" width="779" height="213" rx="14" fill="url(#grid7)" />
+  <rect x="0.5" y="0.5" width="779" height="213" rx="14" fill="url(#r7)" />
+
+  <!-- Animated Border Sweep -->
+  <rect class="sweep" x="0.5" y="0.5" width="779" height="213" rx="14" fill="none" stroke="#38BDF8" stroke-width="1.3" pathLength="100" stroke-dasharray="10 90" stroke-linecap="round" />
+
+  <!-- Right Graphic: Data Pipeline & Statistical Distribution -->
+  <g transform="translate(650, 107)">
+    <circle r="68" fill="none" stroke="#38BDF8" stroke-opacity="0.15" />
+    <circle r="46" fill="none" stroke="#38BDF8" stroke-opacity="0.25" stroke-dasharray="3 3" />
+
+    <!-- Gaussian Bell Curve Contour -->
+    <path d="M -48 24 C -30 24 -24 -24 0 -24 C 24 -24 30 24 48 24" fill="none" stroke="#38BDF8" stroke-width="1.8" stroke-linecap="round" />
+    
+    <!-- Standard Deviation Shading & Mean Line -->
+    <line x1="0" y1="-24" x2="0" y2="24" stroke="#00FF87" stroke-width="1.2" stroke-dasharray="2 2" />
+    <circle cx="0" cy="-24" r="3.5" fill="#00FF87" class="pulse" />
+    
+    <circle cx="-16" cy="2" r="2.5" fill="#00F2FE" />
+    <circle cx="16" cy="2" r="2.5" fill="#7AA2F7" />
+
+    <!-- Baseline Axis -->
+    <line x1="-52" y1="24" x2="52" y2="24" stroke="#1E293B" stroke-width="1.2" />
+  </g>
+
+  <!-- Left Content Column -->
+  <g transform="translate(32, 0)">
+    <!-- Monospace Tag -->
+    <text class="m" x="0" y="38" font-size="11" font-weight="700" letter-spacing="1.5" fill="#38BDF8">ACADEMIC CURRICULA &amp; RESEARCH HARVEST</text>
+
+    <!-- Title -->
+    <text x="0" y="74" font-size="26" font-weight="700" fill="#FFFFFF">Python-for-Data-Science</text>
+
+    <!-- Specs Bullets -->
+    <text x="0" y="105" font-size="13.5" fill="#C9D1D9">Comprehensive data science curriculum engineered for high-throughput exploration.</text>
+    <text x="0" y="126" font-size="13.5" fill="#C9D1D9">Statistical significance testing, vectorized transformations &amp; feature discovery.</text>
+    <text x="0" y="147" font-size="13.5" fill="#C9D1D9">Scalable unstructured data mining, parsing, and exploratory pipelines.</text>
+
+    <!-- Pill Badges -->
+    <g transform="translate(0, 172)">
+      <rect x="0" y="0" width="84" height="22" rx="11" fill="#0E1626" stroke="#38BDF8" stroke-opacity="0.35" />
+      <text class="m" x="42" y="15" text-anchor="middle" font-size="10.5" fill="#38BDF8" font-weight="600">NumPy</text>
+
+      <rect x="92" y="0" width="84" height="22" rx="11" fill="#0E1626" stroke="#38BDF8" stroke-opacity="0.35" />
+      <text class="m" x="134" y="15" text-anchor="middle" font-size="10.5" fill="#38BDF8" font-weight="600">Pandas</text>
+
+      <rect x="184" y="0" width="112" height="22" rx="11" fill="#0E1626" stroke="#38BDF8" stroke-opacity="0.35" />
+      <text class="m" x="240" y="15" text-anchor="middle" font-size="10.5" fill="#38BDF8" font-weight="600">Data Mining</text>
+
+      <rect x="304" y="0" width="100" height="22" rx="11" fill="#0E1626" stroke="#38BDF8" stroke-opacity="0.35" />
+      <text class="m" x="354" y="15" text-anchor="middle" font-size="10.5" fill="#38BDF8" font-weight="600">Postgrad MSc</text>
+    </g>
+  </g>
+
+  <!-- External Link Arrow (Top Right) -->
+  <path d="M 742 32 L 752 22 M 744 22 H 752 V 30" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+</svg>

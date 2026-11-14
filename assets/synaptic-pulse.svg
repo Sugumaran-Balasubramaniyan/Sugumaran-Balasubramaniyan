@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="44" viewBox="0 0 900 44" role="img" aria-labelledby="title desc">
+  <title id="title">Neural &amp; Vector Synaptic Pulse</title>
+  <desc id="desc">An electric cyan neural telemetry bus connecting Paris Inference, SKEMA Research, and Cloud Mesh nodes with animated signals.</desc>
+  <defs>
+    <linearGradient id="bus-track" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0" />
+      <stop offset="20%" stop-color="#00F2FE" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.9" />
+      <stop offset="80%" stop-color="#7AA2F7" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0" />
+    </linearGradient>
+    <filter id="glow-pulse" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    @media (prefers-reduced-motion: reduce) {
+      animate, animateMotion { display: none; }
+    }
+  </style>
+
+  <!-- Vector Synapse Track -->
+  <path id="pulse-path" d="M 20 22 H 240 L 255 12 H 345 L 360 22 H 520 L 535 32 H 625 L 640 22 H 880" fill="none" stroke="url(#bus-track)" stroke-width="1.6" />
+
+  <!-- Node 1: Paris Inference -->
+  <g transform="translate(240, 22)">
+    <circle r="3" fill="#00FF87" />
+    <circle r="6" fill="none" stroke="#00FF87" stroke-width="1.2" opacity="0.8">
+      <animate attributeName="r" values="4;16;4" dur="2.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="2.8s" repeatCount="indefinite" />
+    </circle>
+    <text class="mono" x="0" y="-12" text-anchor="middle" font-size="8.5" fill="#38BDF8" font-weight="600" letter-spacing="1">PARIS-CORE // &lt;20ms</text>
+  </g>
+
+  <!-- Node 2: SKEMA Research -->
+  <g transform="translate(520, 22)">
+    <circle r="3" fill="#00F2FE" />
+    <circle r="6" fill="none" stroke="#00F2FE" stroke-width="1.2" opacity="0.8">
+      <animate attributeName="r" values="4;16;4" dur="2.8s" begin="0.9s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="2.8s" begin="0.9s" repeatCount="indefinite" />
+    </circle>
+    <text class="mono" x="0" y="24" text-anchor="middle" font-size="8.5" fill="#7AA2F7" font-weight="600" letter-spacing="1">SKEMA-PARIS // AI FACULTY</text>
+  </g>
+
+  <!-- Node 3: Cloud Agent Mesh -->
+  <g transform="translate(740, 22)">
+    <circle r="3" fill="#7AA2F7" />
+    <circle r="6" fill="none" stroke="#7AA2F7" stroke-width="1.2" opacity="0.8">
+      <animate attributeName="r" values="4;16;4" dur="2.8s" begin="1.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="2.8s" begin="1.8s" repeatCount="indefinite" />
+    </circle>
+    <text class="mono" x="0" y="-12" text-anchor="middle" font-size="8.5" fill="#00FF87" font-weight="600" letter-spacing="1">AGENT-MESH // vLLM</text>
+  </g>
+
+  <!-- Traveling Vector Packets -->
+  <circle r="3" fill="#00F2FE" filter="url(#glow-pulse)">
+    <animateMotion dur="4.5s" repeatCount="indefinite" path="M 20 22 H 240 L 255 12 H 345 L 360 22 H 520 L 535 32 H 625 L 640 22 H 880" />
+  </circle>
+  <circle r="2.2" fill="#FFFFFF">
+    <animateMotion dur="4.5s" begin="2.25s" repeatCount="indefinite" path="M 20 22 H 240 L 255 12 H 345 L 360 22 H 520 L 535 32 H 625 L 640 22 H 880" />
+  </circle>
+</svg>

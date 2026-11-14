@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="214" viewBox="0 0 780 214" role="img" aria-labelledby="t4 d4">
+  <title id="t4">Advanced-Machine-Learning</title>
+  <desc id="d4">Applied ML and Explainable AI architecture: gradient boosting, probabilistic models, high-dimensional feature engineering, and SHAP/LIME interpretability.</desc>
+  <defs>
+    <radialGradient id="r4" cx="0.88" cy="0.5" r="0.8">
+      <stop stop-color="#7AA2F7" stop-opacity="0.14" />
+      <stop offset="1" stop-color="#7AA2F7" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid4" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+    .m { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .sweep { animation: sweep 10s linear infinite; }
+    .pulse { animation: pulse 3s ease-in-out infinite; }
+    @keyframes sweep { to { stroke-dashoffset: -100; } }
+    @keyframes pulse { 0%, 100% { opacity: 0.45; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .sweep, .pulse { animation: none !important; } }
+  </style>
+
+  <!-- Background Base & Grid -->
+  <rect x="0.5" y="0.5" width="779" height="213" rx="14" fill="#080C14" stroke="#1E293B" stroke-width="1.2" />
+  <rect x="0.5" y="0.5" width="779" height="213" rx="14" fill="url(#grid4)" />
+  <rect x="0.5" y="0.5" width="779" height="213" rx="14" fill="url(#r4)" />
+
+  <!-- Animated Border Sweep -->
+  <rect class="sweep" x="0.5" y="0.5" width="779" height="213" rx="14" fill="none" stroke="#7AA2F7" stroke-width="1.3" pathLength="100" stroke-dasharray="10 90" stroke-linecap="round" />
+
+  <!-- Right Graphic: Decision Tree Hierarchy & SHAP Attribution Waterfall -->
+  <g transform="translate(650, 107)">
+    <circle r="68" fill="none" stroke="#7AA2F7" stroke-opacity="0.15" />
+    
+    <!-- Tree Root Node -->
+    <circle cx="0" cy="-32" r="6" fill="#7AA2F7" class="pulse" />
+
+    <!-- Branch Lines -->
+    <line x1="0" y1="-26" x2="-26" y2="-6" stroke="#7AA2F7" stroke-width="1.3" />
+    <line x1="0" y1="-26" x2="26" y2="-6" stroke="#00F2FE" stroke-width="1.3" />
+
+    <!-- Level 1 Nodes -->
+    <circle cx="-26" cy="-6" r="4.5" fill="#7AA2F7" />
+    <circle cx="26" cy="-6" r="4.5" fill="#00F2FE" />
+
+    <!-- Level 2 Branch Lines -->
+    <line x1="-26" y1="-1.5" x2="-40" y2="20" stroke="#7AA2F7" stroke-width="1" />
+    <line x1="-26" y1="-1.5" x2="-12" y2="20" stroke="#7AA2F7" stroke-width="1" />
+    <line x1="26" y1="-1.5" x2="12" y2="20" stroke="#00F2FE" stroke-width="1" />
+    <line x1="26" y1="-1.5" x2="40" y2="20" stroke="#00FF87" stroke-width="1" />
+
+    <!-- Level 2 Leaf Nodes -->
+    <circle cx="-40" cy="20" r="3.5" fill="#38BDF8" />
+    <circle cx="-12" cy="20" r="3.5" fill="#7AA2F7" />
+    <circle cx="12" cy="20" r="3.5" fill="#00F2FE" />
+    <circle cx="40" cy="20" r="3.5" fill="#00FF87" />
+
+    <!-- Horizontal Attribution Baselines -->
+    <line x1="-48" y1="36" x2="48" y2="36" stroke="#1E293B" stroke-width="1.2" stroke-dasharray="2 2" />
+  </g>
+
+  <!-- Left Content Column -->
+  <g transform="translate(32, 0)">
+    <!-- Monospace Tag -->
+    <text class="m" x="0" y="38" font-size="11" font-weight="700" letter-spacing="1.5" fill="#7AA2F7">04 · PRODUCTION ML &amp; EXPLAINABLE AI</text>
+
+    <!-- Title -->
+    <text x="0" y="74" font-size="26" font-weight="700" fill="#FFFFFF">Advanced-Machine-Learning</text>
+
+    <!-- Specs Bullets -->
+    <text x="0" y="105" font-size="13.5" fill="#C9D1D9">Production ML curriculum &amp; reference architectures for enterprise pipelines.</text>
+    <text x="0" y="126" font-size="13.5" fill="#C9D1D9">Ensemble gradient boosting (XGBoost, LightGBM) &amp; high-dimensional feature engineering.</text>
+    <text x="0" y="147" font-size="13.5" fill="#C9D1D9">Explainable AI (XAI) frameworks: SHAP attribution contours &amp; LIME interpretability.</text>
+
+    <!-- Pill Badges -->
+    <g transform="translate(0, 172)">
+      <rect x="0" y="0" width="96" height="22" rx="11" fill="#0E1626" stroke="#7AA2F7" stroke-opacity="0.35" />
+      <text class="m" x="48" y="15" text-anchor="middle" font-size="10.5" fill="#7AA2F7" font-weight="600">Scikit-Learn</text>
+
+      <rect x="104" y="0" width="80" height="22" rx="11" fill="#0E1626" stroke="#7AA2F7" stroke-opacity="0.35" />
+      <text class="m" x="144" y="15" text-anchor="middle" font-size="10.5" fill="#7AA2F7" font-weight="600">XGBoost</text>
+
+      <rect x="192" y="0" width="94" height="22" rx="11" fill="#0E1626" stroke="#7AA2F7" stroke-opacity="0.35" />
+      <text class="m" x="239" y="15" text-anchor="middle" font-size="10.5" fill="#7AA2F7" font-weight="600">SHAP / XAI</text>
+
+      <rect x="294" y="0" width="76" height="22" rx="11" fill="#0E1626" stroke="#7AA2F7" stroke-opacity="0.35" />
+      <text class="m" x="332" y="15" text-anchor="middle" font-size="10.5" fill="#7AA2F7" font-weight="600">Jupyter</text>
+    </g>
+  </g>
+
+  <!-- External Link Arrow (Top Right) -->
+  <path d="M 742 32 L 752 22 M 744 22 H 752 V 30" fill="none" stroke="#7AA2F7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+</svg>

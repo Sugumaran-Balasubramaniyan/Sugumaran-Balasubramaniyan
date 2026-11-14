@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="110" viewBox="0 0 900 110" role="img" aria-labelledby="t-std d-std">
+  <title id="t-std">First-Principles Research &amp; Industry Standards</title>
+  <desc id="d-std">Section header: Public Systems Engineering Log, ETSI Standardization, RAISE Summit, and MACHINA Summit Ambassadorships.</desc>
+  <defs>
+    <linearGradient id="sec-std-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14" />
+      <stop offset="60%" stop-color="#0D131F" />
+      <stop offset="100%" stop-color="#06090F" />
+    </linearGradient>
+    <linearGradient id="sec-std-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F5B83D" stop-opacity="0" />
+      <stop offset="30%" stop-color="#F5B83D" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#00F2FE" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#F5B83D" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="sec-std-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .pulse { animation: pulse 2.6s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 0.45; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .pulse { animation: none !important; } }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="1.5" y="1.5" width="897" height="107" rx="12" fill="url(#sec-std-bg)" stroke="#1E293B" stroke-width="1.2" />
+  <rect x="1.5" y="1.5" width="897" height="107" rx="12" fill="url(#sec-std-grid)" />
+
+  <!-- Left Glyph: Standards Shield & Memory Hierarchy -->
+  <g transform="translate(56, 55)">
+    <circle r="32" fill="#F5B83D" fill-opacity="0.05" />
+    <path d="M 0 -18 L 16 -8 V 8 C 16 18 0 24 0 24 C 0 24 -16 18 -16 8 V -8 Z" fill="#0E1626" stroke="#F5B83D" stroke-width="1.4" />
+    <circle cx="0" cy="2" r="3.5" fill="#00F2FE" class="pulse" />
+  </g>
+
+  <!-- Center Title & Subtitle -->
+  <g transform="translate(112, 0)">
+    <text class="mono" x="0" y="44" font-size="11" font-weight="700" fill="#F5B83D" letter-spacing="2.2">
+      03 // FIRST-PRINCIPLES RESEARCH &amp; INDUSTRY STANDARDS
+    </text>
+    <text x="0" y="77" font-size="25" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">
+      Systems Research &amp; Global Standards
+    </text>
+  </g>
+
+  <!-- Right Telemetry Badge in Gold -->
+  <g transform="translate(710, 42)">
+    <rect x="0" y="0" width="160" height="26" rx="13" fill="#0E1626" stroke="#F5B83D" stroke-width="0.8" stroke-opacity="0.5" />
+    <circle cx="14" cy="13" r="3.5" fill="#F5B83D">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text class="mono" x="25" y="17" font-size="10" font-weight="700" fill="#F5B83D" letter-spacing="0.8">ETSI // GOVERNANCE</text>
+  </g>
+
+  <!-- Bottom Accent Trace in Gold/Cyan -->
+  <path d="M 40 108 L 860 108" stroke="url(#sec-std-accent)" stroke-width="2" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="214" viewBox="0 0 780 214" role="img" aria-labelledby="t1 d1">
+  <title id="t1">enterprise-agentic-rag</title>
+  <desc id="d1">Production Agentic RAG Platform with sub-20ms PGVector HNSW hybrid search, dynamic query decomposition, and deterministic guardrail firewalls.</desc>
+  <defs>
+    <radialGradient id="r1" cx="0.88" cy="0.5" r="0.8">
+      <stop stop-color="#00F2FE" stop-opacity="0.14" />
+      <stop offset="1" stop-color="#00F2FE" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid1" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+    .m { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .sweep { animation: sweep 10s linear infinite; }
+    .spin { transform-box: fill-box; transform-origin: center; animation: spin 14s linear infinite; }
+    .pulse { animation: pulse 3s ease-in-out infinite; }
+    @keyframes sweep { to { stroke-dashoffset: -100; } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes pulse { 0%, 100% { opacity: 0.45; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .sweep, .spin, .pulse { animation: none !important; } }
+  </style>
+
+  <!-- Background Base & Grid -->
+  <rect x="0.5" y="0.5" width="779" height="213" rx="14" fill="#080C14" stroke="#1E293B" stroke-width="1.2" />
+  <rect x="0.5" y="0.5" width="779" height="213" rx="14" fill="url(#grid1)" />
+  <rect x="0.5" y="0.5" width="779" height="213" rx="14" fill="url(#r1)" />
+
+  <!-- Animated Border Sweep -->
+  <rect class="sweep" x="0.5" y="0.5" width="779" height="213" rx="14" fill="none" stroke="#00F2FE" stroke-width="1.3" pathLength="100" stroke-dasharray="10 90" stroke-linecap="round" />
+
+  <!-- Right Graphic: Vector Embedding Space & Nearest Neighbor Search -->
+  <g transform="translate(650, 107)">
+    <circle r="68" fill="none" stroke="#00F2FE" stroke-opacity="0.15" />
+    <circle r="48" fill="none" stroke="#00F2FE" stroke-opacity="0.25" stroke-dasharray="3 3" class="spin" />
+    <circle r="28" fill="none" stroke="#38BDF8" stroke-opacity="0.4" />
+    
+    <!-- Vector Coordinate Nodes -->
+    <line x1="-35" y1="-25" x2="0" y2="0" stroke="#00F2FE" stroke-width="1.2" stroke-opacity="0.6" />
+    <line x1="38" y1="-20" x2="0" y2="0" stroke="#38BDF8" stroke-width="1.2" stroke-opacity="0.6" />
+    <line x1="25" y1="35" x2="0" y2="0" stroke="#7AA2F7" stroke-width="1.2" stroke-opacity="0.6" />
+    <line x1="-30" y1="30" x2="0" y2="0" stroke="#00FF87" stroke-width="1.2" stroke-opacity="0.6" />
+
+    <circle cx="-35" cy="-25" r="3" fill="#38BDF8" />
+    <circle cx="38" cy="-20" r="3" fill="#00F2FE" />
+    <circle cx="25" cy="35" r="3" fill="#7AA2F7" />
+    <circle cx="-30" cy="30" r="3" fill="#00FF87" />
+
+    <!-- Query Vector Hub -->
+    <circle cx="0" cy="0" r="7" fill="#00F2FE" class="pulse" />
+    <circle cx="0" cy="0" r="3" fill="#FFFFFF" />
+  </g>
+
+  <!-- Left Content Column -->
+  <g transform="translate(32, 0)">
+    <!-- Monospace Tag -->
+    <text class="m" x="0" y="38" font-size="11" font-weight="700" letter-spacing="1.5" fill="#00F2FE">01 · ENTERPRISE AGENTIC RAG</text>
+
+    <!-- Title -->
+    <text x="0" y="74" font-size="26" font-weight="700" fill="#FFFFFF">enterprise-agentic-rag</text>
+
+    <!-- Specs Bullets -->
+    <text x="0" y="105" font-size="13.5" fill="#C9D1D9">Autonomous multi-step tool calling engine with deterministic guardrail firewalls.</text>
+    <text x="0" y="126" font-size="13.5" fill="#C9D1D9">Sub-20ms PGVector HNSW hybrid search (dense embeddings + BM25 sparse).</text>
+    <text x="0" y="147" font-size="13.5" fill="#C9D1D9">Dynamic query decomposition, multi-document cross-encoder reranking.</text>
+
+    <!-- Pill Badges -->
+    <g transform="translate(0, 172)">
+      <rect x="0" y="0" width="84" height="22" rx="11" fill="#0E1626" stroke="#00F2FE" stroke-opacity="0.35" />
+      <text class="m" x="42" y="15" text-anchor="middle" font-size="10.5" fill="#38BDF8" font-weight="600">PGVector</text>
+
+      <rect x="92" y="0" width="76" height="22" rx="11" fill="#0E1626" stroke="#00F2FE" stroke-opacity="0.35" />
+      <text class="m" x="130" y="15" text-anchor="middle" font-size="10.5" fill="#38BDF8" font-weight="600">FastAPI</text>
+
+      <rect x="176" y="0" width="104" height="22" rx="11" fill="#0E1626" stroke="#00F2FE" stroke-opacity="0.35" />
+      <text class="m" x="228" y="15" text-anchor="middle" font-size="10.5" fill="#38BDF8" font-weight="600">HNSW Hybrid</text>
+
+      <rect x="288" y="0" width="86" height="22" rx="11" fill="#0E1626" stroke="#00F2FE" stroke-opacity="0.35" />
+      <text class="m" x="331" y="15" text-anchor="middle" font-size="10.5" fill="#38BDF8" font-weight="600">Guardrails</text>
+    </g>
+  </g>
+
+  <!-- External Link Arrow (Top Right) -->
+  <path d="M 742 32 L 752 22 M 744 22 H 752 V 30" fill="none" stroke="#00F2FE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+</svg>

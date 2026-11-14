@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="214" viewBox="0 0 780 214" role="img" aria-labelledby="t2 d2">
+  <title id="t2">clinical-llm-eval</title>
+  <desc id="d2">Clinical Reasoning Benchmark Suite featuring MedQA/USMLE ground truth, adversarial LLM-as-judge scoring, and automated hallucination detection.</desc>
+  <defs>
+    <radialGradient id="r2" cx="0.88" cy="0.5" r="0.8">
+      <stop stop-color="#00FF87" stop-opacity="0.14" />
+      <stop offset="1" stop-color="#00FF87" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid2" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+    .m { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .sweep { animation: sweep 10s linear infinite; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes sweep { to { stroke-dashoffset: -100; } }
+    @keyframes pulse { 0%, 100% { opacity: 0.45; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .sweep, .pulse { animation: none !important; } }
+  </style>
+
+  <!-- Background Base & Grid -->
+  <rect x="0.5" y="0.5" width="779" height="213" rx="14" fill="#080C14" stroke="#1E293B" stroke-width="1.2" />
+  <rect x="0.5" y="0.5" width="779" height="213" rx="14" fill="url(#grid2)" />
+  <rect x="0.5" y="0.5" width="779" height="213" rx="14" fill="url(#r2)" />
+
+  <!-- Animated Border Sweep -->
+  <rect class="sweep" x="0.5" y="0.5" width="779" height="213" rx="14" fill="none" stroke="#00FF87" stroke-width="1.3" pathLength="100" stroke-dasharray="10 90" stroke-linecap="round" />
+
+  <!-- Right Graphic: Clinical ECG Waveform & Hallucination Scanner -->
+  <g transform="translate(650, 107)">
+    <circle r="68" fill="none" stroke="#00FF87" stroke-opacity="0.15" />
+    <circle r="48" fill="none" stroke="#00FF87" stroke-opacity="0.25" />
+    
+    <!-- Reticle Grid -->
+    <line x1="-55" y1="0" x2="55" y2="0" stroke="#1E293B" stroke-width="1" />
+    <line x1="0" y1="-55" x2="0" y2="55" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Clinical ECG Pulse Track -->
+    <path d="M -50 0 H -20 L -12 -18 L -4 22 L 6 -28 L 14 14 L 22 0 H 50" fill="none" stroke="#00FF87" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <circle cx="6" cy="-28" r="3.5" fill="#00FF87" class="pulse" />
+    <circle cx="-12" cy="-18" r="2.5" fill="#00F2FE" />
+    <circle cx="-4" cy="22" r="2.5" fill="#38BDF8" />
+  </g>
+
+  <!-- Left Content Column -->
+  <g transform="translate(32, 0)">
+    <!-- Monospace Tag -->
+    <text class="m" x="0" y="38" font-size="11" font-weight="700" letter-spacing="1.5" fill="#00FF87">02 · CLINICAL REASONING EVAL HARNESS</text>
+
+    <!-- Title -->
+    <text x="0" y="74" font-size="26" font-weight="700" fill="#FFFFFF">clinical-llm-eval</text>
+
+    <!-- Specs Bullets -->
+    <text x="0" y="105" font-size="13.5" fill="#C9D1D9">Benchmarking diagnostic reasoning across frontier LLMs against gold standards.</text>
+    <text x="0" y="126" font-size="13.5" fill="#C9D1D9">MedQA &amp; USMLE 4-option ground truth with term-matching hallucination detection.</text>
+    <text x="0" y="147" font-size="13.5" fill="#C9D1D9">Adversarial LLM-as-judge scoring protocols with rubric consistency guardrails.</text>
+
+    <!-- Pill Badges -->
+    <g transform="translate(0, 172)">
+      <rect x="0" y="0" width="76" height="22" rx="11" fill="#0E1626" stroke="#00FF87" stroke-opacity="0.35" />
+      <text class="m" x="38" y="15" text-anchor="middle" font-size="10.5" fill="#00FF87" font-weight="600">MedQA</text>
+
+      <rect x="84" y="0" width="108" height="22" rx="11" fill="#0E1626" stroke="#00FF87" stroke-opacity="0.35" />
+      <text class="m" x="138" y="15" text-anchor="middle" font-size="10.5" fill="#00FF87" font-weight="600">LLM-as-Judge</text>
+
+      <rect x="200" y="0" width="76" height="22" rx="11" fill="#0E1626" stroke="#00FF87" stroke-opacity="0.35" />
+      <text class="m" x="238" y="15" text-anchor="middle" font-size="10.5" fill="#00FF87" font-weight="600">PyTorch</text>
+
+      <rect x="284" y="0" width="138" height="22" rx="11" fill="#0E1626" stroke="#00FF87" stroke-opacity="0.35" />
+      <text class="m" x="353" y="15" text-anchor="middle" font-size="10.5" fill="#00FF87" font-weight="600">Hallucination Eval</text>
+    </g>
+  </g>
+
+  <!-- External Link Arrow (Top Right) -->
+  <path d="M 742 32 L 752 22 M 744 22 H 752 V 30" fill="none" stroke="#00FF87" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="110" viewBox="0 0 900 110" role="img" aria-labelledby="t2 d2">
+  <title id="t2">Academic Leadership &amp; Clinical Research</title>
+  <desc id="d2">Section header: SKEMA Business School Paris Faculty, MSc Curriculum, Clinical LLM Diagnostics.</desc>
+  <defs>
+    <linearGradient id="sec2-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14" />
+      <stop offset="60%" stop-color="#0E1324" />
+      <stop offset="100%" stop-color="#06090F" />
+    </linearGradient>
+    <linearGradient id="sec2-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7AA2F7" stop-opacity="0" />
+      <stop offset="30%" stop-color="#7AA2F7" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#00F2FE" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#7AA2F7" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="sec2-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .spin { transform-box: fill-box; transform-origin: center; animation: spin 20s linear infinite; }
+    .pulse { animation: pulse 3s ease-in-out infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .spin, .pulse { animation: none !important; } }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="1.5" y="1.5" width="897" height="107" rx="12" fill="url(#sec2-bg)" stroke="#1E293B" stroke-width="1.2" />
+  <rect x="1.5" y="1.5" width="897" height="107" rx="12" fill="url(#sec2-grid)" />
+
+  <!-- Left Glyph: Animated Faculty Crest & Synapse Ring -->
+  <g transform="translate(56, 55)">
+    <circle r="32" fill="#7AA2F7" fill-opacity="0.05" />
+    <circle r="22" fill="none" stroke="#7AA2F7" stroke-opacity="0.3" stroke-dasharray="3 3" class="spin" />
+    <!-- Mortarboard / Knowledge Crest -->
+    <path d="M 0 -11 L 14 -4 L 0 3 L -14 -4 Z" fill="none" stroke="#7AA2F7" stroke-width="1.5" />
+    <path d="M 10 -2 L 10 9 C 10 9 0 14 -10 9 L -10 -2" fill="none" stroke="#00F2FE" stroke-width="1.2" />
+    <circle cx="0" cy="-4" r="3" fill="#00F2FE" class="pulse" />
+  </g>
+
+  <!-- Center Title & Subtitle -->
+  <g transform="translate(112, 0)">
+    <text class="mono" x="0" y="44" font-size="11" font-weight="700" fill="#7AA2F7" letter-spacing="2.2">
+      02 // ACADEMIC CHAIR &amp; RESEARCH INCUBATION
+    </text>
+    <text x="0" y="77" font-size="25" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">
+      Academic Leadership &amp; Clinical Research
+    </text>
+  </g>
+
+  <!-- Right Telemetry Badge -->
+  <g transform="translate(710, 42)">
+    <rect x="0" y="0" width="160" height="26" rx="13" fill="#0E1626" stroke="#7AA2F7" stroke-width="0.8" stroke-opacity="0.5" />
+    <circle cx="14" cy="13" r="3.5" fill="#7AA2F7">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+    <text class="mono" x="25" y="17" font-size="10" font-weight="700" fill="#E2F1FF" letter-spacing="0.8">SKEMA PARIS // CHAIR</text>
+  </g>
+
+  <!-- Bottom Accent Trace -->
+  <path d="M 40 108 L 860 108" stroke="url(#sec2-accent)" stroke-width="2" stroke-linecap="round" />
+</svg>
